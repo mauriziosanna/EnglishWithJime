@@ -8,7 +8,9 @@ html {
     background-color: mediumblue;
     font-size: 2rem;
     margin-top: 0;
-   
+    border-radius: 1rem;
+
+
 }
 
 a {
@@ -110,6 +112,8 @@ a {
     font-size: 2rem;
     margin: 0.5rem 6rem 0 6.3rem;
     color: rgb(9, 9, 179);
+    border-radius: 1rem;
+
     }
 
     @media (min-width: 1023px) {
@@ -163,6 +167,7 @@ a {
 .imagen-principal {
     width: 90%;
     height: 70%;
+    border-radius: 1rem;
     /*margin: 0.5rem 4rem 2rem 6rem;*/
     
     
@@ -187,10 +192,21 @@ a {
     
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+>>>>>>> mi-rama
 
 .imagenCurso {
     width: 70%;
     height: 50%;
+    border-radius: 1rem;
+
     /*margin: 0rem 0rem 2rem 19rem;*/
     
 }
@@ -221,6 +237,8 @@ a {
 .imagenExamenes {
     width: 70%;
     height: 47rem;
+    border-radius: 1rem;
+
     /* margin: 0rem 0rem 2rem 17rem; */
 }
 
@@ -250,6 +268,8 @@ a {
 .imagenTraducciones {
     width: 70%;
     height: 70rem;
+    border-radius: 1rem;
+
     /* margin: 0rem 0rem 2rem 17rem; */
 }
 
@@ -490,8 +510,64 @@ iframe {
 }
 
 
-
-
 legend {
     font-size: 3rem;
 }
+
+
+
+/*ANIMACIONES*/
+
+a {
+    transition: 1seg;
+}
+
+a:hover {
+font-size: 3rem;
+color:aqua;
+}
+
+
+input:focus {
+        padding: 5px;
+        background-color: rgb(238, 238, 204);
+}
+
+
+@keyframes aparecer {
+    0%{ opacity: 0;}
+    100%{opacity: 1;}
+    
+    }
+        
+    img.logoWhatsapp {
+        animation-name: aparecer;
+        animation-iteration-count: none;
+        animation-timing-function: ease-in;
+        animation-duration: 2s;
+        animation-delay: 0s;
+        }
+
+    img.logoInstagram {
+        animation-name: aparecer;
+        animation-iteration-count: none;
+        animation-timing-function: ease-in;
+        animation-duration: 2s;
+        animation-delay: 0s;
+        } 
+
+     img.logoFace {
+        animation-name: aparecer;
+        animation-iteration-count: none;
+        animation-timing-function: ease-in;
+        animation-duration: 2s;
+        animation-delay: 0s;
+        } 
+        
+        img.logoTwitter {
+            animation-name: aparecer;
+            animation-iteration-count: none;
+            animation-timing-function: ease-in;
+            animation-duration: 2s;
+            animation-delay: 0s;
+            }     
