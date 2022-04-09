@@ -3,7 +3,6 @@ html {
 }
 
 
-
 .menu-naveg {
     list-style: none;
     background-color: mediumblue;
@@ -11,7 +10,6 @@ html {
     margin-top: 0;
    
 }
-
 
 a {
     text-decoration: none;
@@ -21,7 +19,7 @@ a {
 }
 
 .titulo-principal {
-    color: rgb(9, 9, 179);
+    color: rgb(14, 14, 39);
     font-family: 'Oooh Baby', cursive;
     font-size: 6rem;
     margin-bottom: 1.5rem;
@@ -43,7 +41,6 @@ a {
     }
     
 }
-
 
 
 
@@ -189,42 +186,6 @@ a {
     }
     
 }
-
-/*Aqui estoy practicando ANIMACIONES*/
-
-input {
-    transition: all 2s;
-}
-
-input:focus {
-    height: 100%;
-    width: 100px;
-    padding: 50px;
-}
-
-@keyframes dinobo {
-0%{ width: 200px;}
-2s{ width: 300px; }
-50%{ width: 500px;}
-100%{ width: 600px;}
-
-}
-
-
-img {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    animation-name: dinobo;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 4s;
-    animation-delay: 2s;
-
-}
-
-
-
 
 
 .imagenCurso {
