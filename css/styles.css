@@ -106,25 +106,29 @@ a {
     
 }
 
+.tituloContacto {
+    font-size: 5rem;
+}
 
-@media (min-width: 1024px) {
+
+
+ @media (max-width: 768px) {
     .tituloContacto{
         font-size: 4rem;
         
 
     }
     
-}
+} 
 
 
-
-@media (min-width: 425px) {
+@media (max-width: 425px) {
     .tituloContacto{
         font-size: 2.2rem;
     
     }
     
-}
+} 
 
 
 #colorFondo {
@@ -177,6 +181,7 @@ a {
     text-align: justify;
     font-size: 2rem;
     margin: 0.5rem 6rem 0 17rem;
+    
    
     }
 
@@ -419,12 +424,33 @@ a {
 
 
 
-.textarea {
+textarea {
     margin-bottom: 0%;
 }
 
-iframe {
-    margin-left: 33rem;
+@media (max-width: 768px) {
+    textarea{
+        width: 30rem;
+        
+
+    }
+    
+} 
+
+
+@media (max-width: 435px) {
+    textarea{
+        width: 15rem;
+        }
+    
+} 
+
+
+
+.iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -580,4 +606,3 @@ input:focus {
         }    */
 
 
-       
