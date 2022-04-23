@@ -33,7 +33,6 @@
 .tituloContacto {
   font-size: 5rem; }
 
-<<<<<<< HEAD
 @media (max-width: 768px) {
   .tituloContacto {
     font-size: 4rem; } }
@@ -41,37 +40,6 @@
 @media (max-width: 425px) {
   .tituloContacto {
     font-size: 2.2rem; } }
-=======
-.tituloContacto {
-    font-size: 5rem;
-}
-
-
-
- @media (max-width: 768px) {
-    .tituloContacto{
-        font-size: 4rem;
-        
-
-    }
-    
-} 
-
-
-@media (max-width: 425px) {
-    .tituloContacto{
-        font-size: 2.2rem;
-    
-    }
-    
-} 
-
-
-#colorFondo {
-    background-color: rgb(176, 226, 246);
-}
-
->>>>>>> 6d38fceb7e4a296bfbe042edb58c5d87ae99cc36
 
 .textoPrincipal {
   background-image: linear-gradient(white, #84addb, rgba(35, 120, 231, 0.842));
@@ -96,20 +64,10 @@
     margin: 0.7rem 8rem 0 8rem; } }
 
 .textosPaginas {
-<<<<<<< HEAD
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: justify;
   font-size: 2rem;
   margin: 0.5rem 6rem 0 17rem; }
-=======
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: justify;
-    font-size: 2rem;
-    margin: 0.5rem 6rem 0 17rem;
-    
-   
-    }
->>>>>>> 6d38fceb7e4a296bfbe042edb58c5d87ae99cc36
 
 .menu-naveg {
   list-style: none;
@@ -189,7 +147,6 @@ html {
     padding: 0.3rem 7rem;
     display: inline-block;
     
-<<<<<<< HEAD
 } */
 /*
 @media (min-width: 1160px) {
@@ -199,89 +156,6 @@ html {
         display: flex;
         justify-content: start;
         
-=======
-}
-
-@media (max-width: 767px) {
-    .logoWhatsapp{
-        width: 3.2rem;
-        height: 1.5em;
-     }
-    
-}
-
-@media (max-width: 767px) {
-    .logoInstagram{
-        width: 2rem;
-        height: 2rem;
-     }
-    
-}
-
-@media (max-width: 767px) {
-    .logoFace{
-        width: 2rem;
-        height: 2.1rem;
-     }
-    
-}
-
-
-
-
-textarea {
-    margin-bottom: 0%;
-}
-
-@media (max-width: 768px) {
-    textarea{
-        width: 30rem;
-        
-
-    }
-    
-} 
-
-
-@media (max-width: 435px) {
-    textarea{
-        width: 15rem;
-        }
-    
-} 
-
-
-
-.iframe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.flexContenido {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-
-.flexLogos {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 5rem;
-    
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    border: solid steelblue;
-    margin: 0.5rem 5% 0 5%;
->>>>>>> 6d38fceb7e4a296bfbe042edb58c5d87ae99cc36
         
     }
     
@@ -543,8 +417,5 @@ img.logoTwitter {
             background-image: linear-gradient(white, rgb(132, 173, 219), rgba(35, 120, 231, 0.842));
       
         }    */
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 6d38fceb7e4a296bfbe042edb58c5d87ae99cc36
