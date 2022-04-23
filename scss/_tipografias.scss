@@ -1,0 +1,135 @@
+
+//Paleta de colores:
+
+$color-titulos: rgb(9, 9, 179);
+$color-fondo: rgb(176, 226, 246);
+
+
+
+.titulo-principal {
+    color: $color-titulos;
+    font-family: 'Oooh Baby', cursive;
+    font-size: 6rem;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    
+}
+
+@media (max-width: 769px) {
+    .titulo-principal{
+        font-size: 5rem;
+        
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .titulo-principal{
+        font-size: 2.2rem;
+
+    }
+    
+}
+
+
+
+
+.titulos-secundarios {
+    color: $color-titulos;
+    font-family: 'Oooh Baby', cursive;
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    
+}
+
+@media (max-width: 769px) {
+    .titulos-secundarios{
+        font-size: 5rem;
+        
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .titulos-secundarios{
+        font-size: 2.2rem;
+        
+    }
+    
+}
+
+.tituloContacto {
+    font-size: 5rem;
+}
+
+
+
+@media (max-width: 768px) {
+    .tituloContacto{
+        font-size: 4rem;
+        
+        
+    }
+    
+} 
+
+
+@media (max-width: 425px) {
+    .tituloContacto{
+        font-size: 2.2rem;
+        
+    }
+    
+} 
+
+.textoPrincipal {
+    background-image: linear-gradient(white, rgb(132, 173, 219), rgba(35, 120, 231, 0.842));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    font-size: 2rem;
+    margin: 0.5rem 6rem 0 6.3rem;
+    color: rgb(9, 9, 179);
+    border-radius: 1rem;
+    
+}
+
+@media (min-width: 1023px) {
+    .textoPrincipal{
+        margin: 0.5rem 5rem 0 5.3rem;
+        
+        
+    }
+    
+}
+
+
+@media (max-width: 769px) {
+    .textoPrincipal{
+        margin: 0.7rem 7.5rem 0 7.5rem;
+        }
+        
+    }
+    
+    
+    @media (max-width: 767px) {
+        .textoPrincipal{
+            font-size: 1rem;
+            margin: 0.7rem 8rem 0 8rem;
+            
+        }
+        
+    }
+    
+    
+    
+    .textosPaginas {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: justify;
+        font-size: 2rem;
+        margin: 0.5rem 6rem 0 17rem;
+        
+        
+    }
+    

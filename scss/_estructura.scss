@@ -1,0 +1,101 @@
+html {
+    font-size: 62.5%;
+}
+
+#colorFondo {
+    background-color: $color-fondo;
+}
+
+.piePagina {
+    font-size: 1.2rem;
+    bottom: 0.5rem;
+    position: sticky;
+    
+    
+}
+
+/* .barraNav {
+    padding: 0.3rem 7rem;
+    display: inline-block;
+    
+} */
+
+/*
+@media (min-width: 1160px) {
+    .barraNav{
+        padding: 2px;
+        margin: 0 4rem 0 4rem; 
+        display: flex;
+        justify-content: start;
+        
+        
+    }
+    
+}
+
+@media (max-width: 769px) {
+    .barraNav{
+        padding: 2px;
+        margin: 0 4rem 0 4rem;
+        
+        
+        
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .barraNav{
+        padding: 0 1rem 0 1rem;
+        margin: 0;
+        
+        
+        
+    }
+    
+}
+*/
+
+.flexContenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.flexLogos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border: solid steelblue;
+    margin: 0.5rem 5% 0 5%;
+    
+}
+
+@media (max-width: 769px) {
+    .grid{
+        margin: 0.5rem 11rem 0 11rem;
+        font-size: 1rem;
+        
+    }
+    
+}
+
+
+
+@media (max-width: 767px) {
+    .grid{
+        margin: 0.5rem 7.2rem 0 7.2rem;
+        font-size: 5px;
+    }
+    
+}

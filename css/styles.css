@@ -1,583 +1,419 @@
-html {
-    font-size: 62.5%;
-}
-
-
-.menu-naveg {
-    list-style: none;
-    background-color: mediumblue;
-    font-size: 2rem;
-    margin-top: 0;
-    border-radius: 1rem;
-    display: flex;
-    justify-content: space-between;
-   
-    
-
-}
-
-@media (max-width: 767px) {
-    .menu-naveg{
-    display: flex;
-    font-size: 1rem;
-    
-    
-
-    }
-    
-} 
-
-@media (max-width: 425px) {
-    .menu-naveg{
-    display: flex;
-    font-size: 1rem;
-    flex-direction: column;
-    
-    
-
-    }
-    
-} 
-
-
-
-
-
-
-
-a {
-    text-decoration: none;
-    color: white;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight:bold;
-}
-
+@charset "UTF-8";
 .titulo-principal {
-    color: rgb(9, 9, 179);
-    font-family: 'Oooh Baby', cursive;
-    font-size: 6rem;
-    margin-bottom: 1.5rem;
-    margin-top: 2rem;
-
-}
+  color: #0909b3;
+  font-family: 'Oooh Baby', cursive;
+  font-size: 6rem;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem; }
 
 @media (max-width: 769px) {
-    .titulo-principal{
-        font-size: 5rem;
-    
-    }
-    
-}
+  .titulo-principal {
+    font-size: 5rem; } }
 
 @media (max-width: 767px) {
-    .titulo-principal{
-        font-size: 2.2rem;
-
-    }
-    
-}
-
-
-
+  .titulo-principal {
+    font-size: 2.2rem; } }
 
 .titulos-secundarios {
-    color: rgb(9, 9, 179);
-    font-family: 'Oooh Baby', cursive;
-    font-size: 5rem;
-    text-align: center;
-    margin-bottom: 1.5rem;
-    margin-top: 2rem;
-
-}
+  color: #0909b3;
+  font-family: 'Oooh Baby', cursive;
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem; }
 
 @media (max-width: 769px) {
-    .titulos-secundarios{
-        font-size: 5rem;
-    
-    }
-    
-}
+  .titulos-secundarios {
+    font-size: 5rem; } }
 
 @media (max-width: 767px) {
-    .titulos-secundarios{
-        font-size: 2.2rem;
+  .titulos-secundarios {
+    font-size: 2.2rem; } }
 
-    }
-    
-}
+.tituloContacto {
+  font-size: 5rem; }
 
+@media (max-width: 768px) {
+  .tituloContacto {
+    font-size: 4rem; } }
 
-@media (min-width: 1024px) {
-    .tituloContacto{
-        font-size: 4rem;
-        
-
-    }
-    
-}
-
-
-
-@media (min-width: 425px) {
-    .tituloContacto{
-        font-size: 2.2rem;
-    
-    }
-    
-}
-
-
-#colorFondo {
-    background-color: rgb(176, 226, 246);
-}
-
+@media (max-width: 425px) {
+  .tituloContacto {
+    font-size: 2.2rem; } }
 
 .textoPrincipal {
-    background-image: linear-gradient(white, rgb(132, 173, 219), rgba(35, 120, 231, 0.842));
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: justify;
-    font-size: 2rem;
-    margin: 0.5rem 6rem 0 6.3rem;
-    color: rgb(9, 9, 179);
-    border-radius: 1rem;
+  background-image: linear-gradient(white, #84addb, rgba(35, 120, 231, 0.842));
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: justify;
+  font-size: 2rem;
+  margin: 0.5rem 6rem 0 6.3rem;
+  color: #0909b3;
+  border-radius: 1rem; }
 
-    }
+@media (min-width: 1023px) {
+  .textoPrincipal {
+    margin: 0.5rem 5rem 0 5.3rem; } }
 
-    @media (min-width: 1023px) {
-        .textoPrincipal{
-        margin: 0.5rem 5rem 0 5.3rem;
-        
-    
-        }
-        
-    }
+@media (max-width: 769px) {
+  .textoPrincipal {
+    margin: 0.7rem 7.5rem 0 7.5rem; } }
 
-
-    @media (max-width: 769px) {
-        .textoPrincipal{
-        margin: 0.7rem 7.5rem 0 7.5rem;
-        }
-        
-    }
-
-
-    @media (max-width: 767px) {
-        .textoPrincipal{
-            font-size: 1rem;
-            margin: 0.7rem 8rem 0 8rem;
-    
-        }
-        
-    }
-
-
+@media (max-width: 767px) {
+  .textoPrincipal {
+    font-size: 1rem;
+    margin: 0.7rem 8rem 0 8rem; } }
 
 .textosPaginas {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: justify;
-    font-size: 2rem;
-    margin: 0.5rem 6rem 0 17rem;
-   
-    }
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: justify;
+  font-size: 2rem;
+  margin: 0.5rem 6rem 0 17rem; }
 
-
-    
-
-
-
-.imagen-principal {
-    width: 90%;
-    height: 70%;
-    border-radius: 1rem;
-    /*margin: 0.5rem 4rem 2rem 6rem;*/
-    
-    
-}
-
-
-@media (max-width: 769px) {
-    .imagen-principal{
-    width: 80%;
-    height: 60%;
-    
-    }
-    
-}
+.menu-naveg {
+  list-style: none;
+  background-color: mediumblue;
+  font-size: 2rem;
+  margin-top: 0;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between; }
 
 @media (max-width: 767px) {
-    .imagen-principal{
-        width: 60%;
-        height: 40%;
+  .menu-naveg {
+    display: flex;
+    font-size: 1rem; } }
 
-    }
+@media (max-width: 425px) {
+  .menu-naveg {
+    display: flex;
+    font-size: 1rem;
+    flex-direction: column; } }
+
+/*ESTA PARTE YA ESTÁ SIN USO DEBIDO A CAMBIOS APLICADOS
+
+.barraNav {
+    padding: 0.3rem 7rem;
+    display: inline-block;
     
-}
-
-.imagenCurso {
-    width: 70%;
-    height: 50%;
-    border-radius: 1rem;
-
-    /*margin: 0rem 0rem 2rem 19rem;*/
-    
-}
-
-@media (max-width: 769px) {
-    .imagenCurso{
-    width: 80%;
-    height: 60%;
-    
-    }
-    
-}
-
-@media (max-width: 767px) {
-    .imagenCurso{
-        width: 60%;
-        height: 40%;
-
-    }
-    
-}
+} 
 
 
-
-
-
-
-.imagenExamenes {
-    width: 70%;
-    height: 47rem;
-    border-radius: 1rem;
-
-    /* margin: 0rem 0rem 2rem 17rem; */
-}
-
-@media (max-width: 769px) {
-    .imagenExamenes{
-    width: 80%;
-    height: 60%;
-    
-    }
-    
-}
-
-@media (max-width: 767px) {
-    .imagenExamenes{
-        width: 60%;
-        height: 40%;
-
-    }
-    
-}
-
-
-
-
-
-
-.imagenTraducciones {
-    width: 70%;
-    height: 70rem;
-    border-radius: 1rem;
-
-    /* margin: 0rem 0rem 2rem 17rem; */
-}
-
-@media (max-width: 769px) {
-    .imagenTraducciones{
-    width: 80%;
-    height: 60%;
-    
-    }
-    
-}
-
-@media (max-width: 767px) {
-    .imagenTraducciones{
-        width: 60%;
-        height: 40%;
-
-    }
-    
-}
-
-
-
-
-
-.piePagina {
-    font-size: 1.2rem;
-    bottom: 0.5rem;
-    position: sticky;
-    
-
-}
-
-/* .barraNav {
-        padding: 0.3rem 7rem;
-        display: inline-block;
-        
-} */
-
-/*
 @media (min-width: 1160px) {
     .barraNav{
-    padding: 2px;
-    margin: 0 4rem 0 4rem; 
-    display: flex;
-    justify-content: start;
-    
-
+        padding: 2px;
+        margin: 0 4rem 0 4rem; 
+        display: flex;
+        justify-content: start;
+        
+        
     }
     
 }
- 
+
 @media (max-width: 769px) {
     .barraNav{
-    padding: 2px;
-    margin: 0 4rem 0 4rem;
-    
-    
-
+        padding: 2px;
+        margin: 0 4rem 0 4rem;
+        
+        
+        
     }
     
 }
 
 @media (max-width: 768px) {
     .barraNav{
-    padding: 0 1rem 0 1rem;
-    margin: 0;
-    
-    
-
+        padding: 0 1rem 0 1rem;
+        margin: 0;
+        
+        
+        
     }
     
 }
 */
+html {
+  font-size: 62.5%; }
 
-.logoWhatsapp {
-    width: 7rem;
-    height: 4rem;
-    /* margin-left: 100rem; */
-    
-}
-.logoInstagram {
-    width: 4.2rem;
-    height: 4.2rem;
-        
-}
+#colorFondo {
+  background-color: #b0e2f6; }
 
-.logoFace {
-    width: 4rem;
-    height: 4.3rem;
+.piePagina {
+  font-size: 1.2rem;
+  bottom: 0.5rem;
+  position: sticky; }
 
-}
-
-.logoTwitter {
-    width: 4rem;
-    height: 4rem;
-}
-
-.logosRedes {
+/* .barraNav {
+    padding: 0.3rem 7rem;
     display: inline-block;
-}
-
-@media (max-width: 767px) {
-    .logoTwitter{
-        width: 2rem;
-        height: 2rem;
-        margin-right: 3.8rem;
-     }
     
-}
-
-@media (max-width: 767px) {
-    .logoWhatsapp{
-        width: 3.2rem;
-        height: 1.5em;
-     }
-    
-}
-
-@media (max-width: 767px) {
-    .logoInstagram{
-        width: 2rem;
-        height: 2rem;
-     }
-    
-}
-
-@media (max-width: 767px) {
-    .logoFace{
-        width: 2rem;
-        height: 2.1rem;
-     }
-    
-}
-
-
-
-
-.textarea {
-    margin-bottom: 0%;
-}
-
-iframe {
-    margin-left: 33rem;
-    
-}
-
-.flexContenido {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-
-.flexLogos {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 5rem;
-    
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    border: solid steelblue;
-    margin: 0.5rem 5% 0 5%;
+} */
+/*
+@media (min-width: 1160px) {
+    .barraNav{
+        padding: 2px;
+        margin: 0 4rem 0 4rem; 
+        display: flex;
+        justify-content: start;
         
-}
-
-@media (max-width: 769px) {
-    .grid{
-        margin: 0.5rem 11rem 0 11rem;
-        font-size: 1rem;
-    
+        
     }
     
 }
 
+@media (max-width: 769px) {
+    .barraNav{
+        padding: 2px;
+        margin: 0 4rem 0 4rem;
+        
+        
+        
+    }
+    
+}
 
+@media (max-width: 768px) {
+    .barraNav{
+        padding: 0 1rem 0 1rem;
+        margin: 0;
+        
+        
+        
+    }
+    
+}
+*/
+.flexContenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.flexLogos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  border: solid steelblue;
+  margin: 0.5rem 5% 0 5%; }
+
+@media (max-width: 769px) {
+  .grid {
+    margin: 0.5rem 11rem 0 11rem;
+    font-size: 1rem; } }
 
 @media (max-width: 767px) {
-    .grid{
-        margin: 0.5rem 7.2rem 0 7.2rem;
-        font-size: 5px;
-     }
-    
-}
+  .grid {
+    margin: 0.5rem 7.2rem 0 7.2rem;
+    font-size: 5px; } }
+
+.imagen-principal {
+  width: 90%;
+  height: 70%;
+  border-radius: 1rem;
+  /*margin: 0.5rem 4rem 2rem 6rem;*/ }
+
+@media (max-width: 769px) {
+  .imagen-principal {
+    width: 80%;
+    height: 60%; } }
+
+@media (max-width: 767px) {
+  .imagen-principal {
+    width: 60%;
+    height: 40%; } }
+
+.imagenCurso {
+  width: 70%;
+  height: 50%;
+  border-radius: 1rem;
+  /*margin: 0rem 0rem 2rem 19rem;*/ }
+
+@media (max-width: 769px) {
+  .imagenCurso {
+    width: 80%;
+    height: 60%; } }
+
+@media (max-width: 767px) {
+  .imagenCurso {
+    width: 60%;
+    height: 40%; } }
+
+.imagenExamenes {
+  width: 70%;
+  height: 47rem;
+  border-radius: 1rem;
+  /* margin: 0rem 0rem 2rem 17rem; */ }
+
+@media (max-width: 769px) {
+  .imagenExamenes {
+    width: 80%;
+    height: 60%; } }
+
+@media (max-width: 767px) {
+  .imagenExamenes {
+    width: 60%;
+    height: 40%; } }
+
+.imagenTraducciones {
+  width: 70%;
+  height: 70rem;
+  border-radius: 1rem;
+  /* margin: 0rem 0rem 2rem 17rem; */ }
+
+@media (max-width: 769px) {
+  .imagenTraducciones {
+    width: 80%;
+    height: 60%; } }
+
+@media (max-width: 767px) {
+  .imagenTraducciones {
+    width: 60%;
+    height: 40%; } }
+
+.logoWhatsapp {
+  width: 7rem;
+  height: 4rem;
+  /* margin-left: 100rem; */ }
+
+.logoInstagram {
+  width: 4.2rem;
+  height: 4.2rem; }
+
+.logoFace {
+  width: 4rem;
+  height: 4.3rem; }
+
+.logoTwitter {
+  width: 4rem;
+  height: 4rem; }
+
+.logosRedes {
+  display: inline-block; }
+
+@media (max-width: 767px) {
+  .logoTwitter {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 3.8rem; } }
+
+@media (max-width: 767px) {
+  .logoWhatsapp {
+    width: 3.2rem;
+    height: 1.5em; } }
+
+@media (max-width: 767px) {
+  .logoInstagram {
+    width: 2rem;
+    height: 2rem; } }
+
+@media (max-width: 767px) {
+  .logoFace {
+    width: 2rem;
+    height: 2.1rem; } }
+
+textarea {
+  margin-bottom: 0%; }
+
+@media (max-width: 768px) {
+  textarea {
+    width: 30rem; } }
+
+@media (max-width: 435px) {
+  textarea {
+    width: 15rem; } }
+
+.iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .formulario {
-    max-width: 70rem;
-    width: 90%;
-    margin: 0 auto;
-}
+  max-width: 70rem;
+  width: 90%;
+  margin: 0 auto; }
 
-.input {
-    width: 90%;
-    margin-top: 5rem;
-    /* margin: 0 auto; */
-    text-align: start;
-}
+.campo label {
+  font-size: 2.5rem;
+  text-align: start;
+  padding: 2rem;
+  position: absolute;
+  margin-top: 0;
+  margin-left: 0; }
 
-.campo label{
-    
-    font-size: 2.5rem;
+@media (min-width: 425px) {
+  .campo label {
+    font-size: 2rem;
     text-align: start;
     padding: 2rem;
     position: absolute;
     margin-top: 0;
-    margin-left: 0;
-}
-
-
-@media (min-width: 425px) {
-    .campo label{
-        font-size: 2rem;
-        text-align: start;
-        padding: 2rem;
-        position: absolute;
-        margin-top: 0;
-        margin-left: 0; 
-     }
-    
-}
-
+    margin-left: 0; } }
 
 legend {
-    font-size: 3rem;
-}
-
-
+  font-size: 3rem; }
 
 /*ANIMACIONES*/
-
 a {
-    transition: 1seg;
-}
+  transition: 1seg;
+  text-decoration: none;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold; }
+  a:hover {
+    font-size: 3rem;
+    color: aqua;
+    text-decoration: none; }
 
-a:hover {
-font-size: 3rem;
-color:aqua;
-text-decoration: none;
-
-}
-
-
-input:focus {
-        padding: 5px;
-        background-color: rgb(238, 238, 204);
-}
-
+.input {
+  width: 90%;
+  margin-top: 5rem;
+  /* margin: 0 auto; */
+  text-align: start; }
+  .input:focus {
+    padding: 5px;
+    background-color: #eeeecc; }
 
 @keyframes aparecer {
-    0%{ opacity: 0;}
-    100%{opacity: 1;}
-    
-    }
-        
-    img.logoWhatsapp {
-        animation-name: aparecer;
-        animation-iteration-count: none;
-        animation-timing-function: ease-in;
-        animation-duration: 2s;
-        animation-delay: 0s;
-        }
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
-    img.logoInstagram {
-        animation-name: aparecer;
-        animation-iteration-count: none;
-        animation-timing-function: ease-in;
-        animation-duration: 2s;
-        animation-delay: 0s;
-        } 
+img.logoWhatsapp {
+  animation-name: aparecer;
+  animation-iteration-count: none;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 0s; }
 
-     img.logoFace {
-        animation-name: aparecer;
-        animation-iteration-count: none;
-        animation-timing-function: ease-in;
-        animation-duration: 2s;
-        animation-delay: 0s;
-        } 
-        
-        img.logoTwitter {
-            animation-name: aparecer;
-            animation-iteration-count: none;
-            animation-timing-function: ease-in;
-            animation-duration: 2s;
-            animation-delay: 0s;
-            }     
+img.logoInstagram {
+  animation-name: aparecer;
+  animation-iteration-count: none;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 0s; }
 
-        /* mark {
+img.logoFace {
+  animation-name: aparecer;
+  animation-iteration-count: none;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 0s; }
+
+img.logoTwitter {
+  animation-name: aparecer;
+  animation-iteration-count: none;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 0s; }
+
+/* mark {
             color: blue;
             background-image: linear-gradient(white, rgb(132, 173, 219), rgba(35, 120, 231, 0.842));
       
         }    */
-
-
-       

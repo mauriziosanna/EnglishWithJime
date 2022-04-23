@@ -1,0 +1,80 @@
+.menu-naveg {
+    list-style: none;
+    background-color: mediumblue;
+    font-size: 2rem;
+    margin-top: 0;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+   
+    
+
+}
+
+@media (max-width: 767px) {
+    .menu-naveg{
+    display: flex;
+    font-size: 1rem;
+    
+    
+
+    }
+    
+} 
+
+@media (max-width: 425px) {
+    .menu-naveg{
+    display: flex;
+    font-size: 1rem;
+    flex-direction: column;
+    
+    
+
+    }
+    
+} 
+
+
+/*ESTA PARTE YA ESTÁ SIN USO DEBIDO A CAMBIOS APLICADOS
+
+.barraNav {
+    padding: 0.3rem 7rem;
+    display: inline-block;
+    
+} 
+
+
+@media (min-width: 1160px) {
+    .barraNav{
+        padding: 2px;
+        margin: 0 4rem 0 4rem; 
+        display: flex;
+        justify-content: start;
+        
+        
+    }
+    
+}
+
+@media (max-width: 769px) {
+    .barraNav{
+        padding: 2px;
+        margin: 0 4rem 0 4rem;
+        
+        
+        
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .barraNav{
+        padding: 0 1rem 0 1rem;
+        margin: 0;
+        
+        
+        
+    }
+    
+}
+*/
