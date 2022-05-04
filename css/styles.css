@@ -1,26 +1,21 @@
-@charset "UTF-8";
-.titulo-principal {
+.titulo-principal, .titulos-secundarios {
   color: #0909b3;
   font-family: 'Oooh Baby', cursive;
   font-size: 6rem;
   margin-bottom: 1.5rem;
   margin-top: 2rem; }
 
+.titulos-secundarios {
+  font-size: 5rem;
+  text-align: center; }
+
 @media (max-width: 769px) {
-  .titulo-principal {
+  .titulo-principal, .titulos-secundarios {
     font-size: 5rem; } }
 
 @media (max-width: 767px) {
-  .titulo-principal {
+  .titulo-principal, .titulos-secundarios {
     font-size: 2.2rem; } }
-
-.titulos-secundarios {
-  color: #0909b3;
-  font-family: 'Oooh Baby', cursive;
-  font-size: 5rem;
-  text-align: center;
-  margin-bottom: 1.5rem;
-  margin-top: 2rem; }
 
 @media (max-width: 769px) {
   .titulos-secundarios {
@@ -89,49 +84,6 @@
     font-size: 1rem;
     flex-direction: column; } }
 
-/*ESTA PARTE YA ESTÁ SIN USO DEBIDO A CAMBIOS APLICADOS
-
-.barraNav {
-    padding: 0.3rem 7rem;
-    display: inline-block;
-    
-} 
-
-
-@media (min-width: 1160px) {
-    .barraNav{
-        padding: 2px;
-        margin: 0 4rem 0 4rem; 
-        display: flex;
-        justify-content: start;
-        
-        
-    }
-    
-}
-
-@media (max-width: 769px) {
-    .barraNav{
-        padding: 2px;
-        margin: 0 4rem 0 4rem;
-        
-        
-        
-    }
-    
-}
-
-@media (max-width: 768px) {
-    .barraNav{
-        padding: 0 1rem 0 1rem;
-        margin: 0;
-        
-        
-        
-    }
-    
-}
-*/
 html {
   font-size: 62.5%; }
 
@@ -143,46 +95,6 @@ html {
   bottom: 0.5rem;
   position: sticky; }
 
-/* .barraNav {
-    padding: 0.3rem 7rem;
-    display: inline-block;
-    
-} */
-/*
-@media (min-width: 1160px) {
-    .barraNav{
-        padding: 2px;
-        margin: 0 4rem 0 4rem; 
-        display: flex;
-        justify-content: start;
-        
-        
-    }
-    
-}
-
-@media (max-width: 769px) {
-    .barraNav{
-        padding: 2px;
-        margin: 0 4rem 0 4rem;
-        
-        
-        
-    }
-    
-}
-
-@media (max-width: 768px) {
-    .barraNav{
-        padding: 0 1rem 0 1rem;
-        margin: 0;
-        
-        
-        
-    }
-    
-}
-*/
 .flexContenido {
   display: flex;
   flex-direction: column;
@@ -212,10 +124,9 @@ html {
     font-size: 5px; } }
 
 .imagen-principal {
-  width: 90%;
   height: 70%;
-  border-radius: 1rem;
-  /*margin: 0.5rem 4rem 2rem 6rem;*/ }
+  width: 90%;
+  border-radius: 1rem; }
 
 @media (max-width: 769px) {
   .imagen-principal {
@@ -230,8 +141,7 @@ html {
 .imagenCurso {
   width: 70%;
   height: 50%;
-  border-radius: 1rem;
-  /*margin: 0rem 0rem 2rem 19rem;*/ }
+  border-radius: 1rem; }
 
 @media (max-width: 769px) {
   .imagenCurso {
@@ -246,8 +156,7 @@ html {
 .imagenExamenes {
   width: 70%;
   height: 47rem;
-  border-radius: 1rem;
-  /* margin: 0rem 0rem 2rem 17rem; */ }
+  border-radius: 1rem; }
 
 @media (max-width: 769px) {
   .imagenExamenes {
@@ -262,8 +171,7 @@ html {
 .imagenTraducciones {
   width: 70%;
   height: 70rem;
-  border-radius: 1rem;
-  /* margin: 0rem 0rem 2rem 17rem; */ }
+  border-radius: 1rem; }
 
 @media (max-width: 769px) {
   .imagenTraducciones {
@@ -277,8 +185,7 @@ html {
 
 .logoWhatsapp {
   width: 7rem;
-  height: 4rem;
-  /* margin-left: 100rem; */ }
+  height: 4rem; }
 
 .logoInstagram {
   width: 4.2rem;
@@ -323,9 +230,13 @@ textarea {
   textarea {
     width: 30rem; } }
 
-@media (max-width: 435px) {
+@media (max-width: 500px) {
   textarea {
-    width: 15rem; } }
+    width: 20rem; } }
+
+@media (max-width: 350px) {
+  textarea {
+    width: 10rem; } }
 
 .iframe {
   display: flex;
@@ -345,11 +256,19 @@ textarea {
   margin-top: 0;
   margin-left: 0; }
 
-@media (min-width: 425px) {
+@media (min-width: 395px) {
   .campo label {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: start;
-    padding: 2rem;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0; } }
+
+@media (max-width: 394px) {
+  .campo label {
+    font-size: 1.2rem;
+    text-align: start;
+    padding: 1.5rem;
     position: absolute;
     margin-top: 0;
     margin-left: 0; } }
@@ -372,7 +291,6 @@ a {
 .input {
   width: 90%;
   margin-top: 5rem;
-  /* margin: 0 auto; */
   text-align: start; }
   .input:focus {
     padding: 5px;
@@ -411,11 +329,3 @@ img.logoTwitter {
   animation-timing-function: ease-in;
   animation-duration: 2s;
   animation-delay: 0s; }
-
-/* mark {
-            color: blue;
-            background-image: linear-gradient(white, rgb(132, 173, 219), rgba(35, 120, 231, 0.842));
-      
-        }    */
-
-

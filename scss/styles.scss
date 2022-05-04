@@ -7,13 +7,17 @@
 $radius-imagenes: 1rem;    
 
 
+//Mixin:
+
+@mixin sizes($height,$width) {
+    height: $height;
+    width: $width;
+
+}
     .imagen-principal {
-        width: 90%;
-        height: 70%;
+        @include sizes(70%, 90%);
         border-radius: $radius-imagenes;
-        /*margin: 0.5rem 4rem 2rem 6rem;*/
-        
-        
+                
     }
         
     @media (max-width: 769px) {
@@ -39,7 +43,7 @@ $radius-imagenes: 1rem;
         height: 50%;
         border-radius: $radius-imagenes;
         
-        /*margin: 0rem 0rem 2rem 19rem;*/
+        
         
     }
     
@@ -67,7 +71,7 @@ $radius-imagenes: 1rem;
     height: 47rem;
     border-radius: $radius-imagenes;
     
-    /* margin: 0rem 0rem 2rem 17rem; */
+    
 }
 
 @media (max-width: 769px) {
@@ -94,7 +98,7 @@ $radius-imagenes: 1rem;
     height: 70rem;
     border-radius: $radius-imagenes;
     
-    /* margin: 0rem 0rem 2rem 17rem; */
+    
 }
 
 @media (max-width: 769px) {
@@ -120,7 +124,7 @@ $radius-imagenes: 1rem;
 .logoWhatsapp {
     width: 7rem;
     height: 4rem;
-    /* margin-left: 100rem; */
+    
     
 }
 .logoInstagram {
@@ -135,9 +139,13 @@ $radius-imagenes: 1rem;
     
 }
 
+//Operaciones:
+
+$ancho: 4rem;
+
 .logoTwitter {
-    width: 4rem;
-    height: 4rem;
+    width: $ancho;
+    height: $ancho;
 }
 
 .logosRedes {
@@ -146,8 +154,8 @@ $radius-imagenes: 1rem;
 
 @media (max-width: 767px) {
     .logoTwitter{
-        width: 2rem;
-        height: 2rem;
+        width: $ancho/2;
+        height: $ancho/2;
         margin-right: 3.8rem;
     }
     
@@ -163,15 +171,15 @@ $radius-imagenes: 1rem;
 
 @media (max-width: 767px) {
     .logoInstagram{
-        width: 2rem;
-        height: 2rem;
+        width: $ancho/2;
+        height: $ancho/2;
     }
     
 }
 
 @media (max-width: 767px) {
     .logoFace{
-        width: 2rem;
+        width: $ancho/2;
         height: 2.1rem;
     }
     
@@ -192,13 +200,13 @@ textarea {
     
 } 
 
+@media (max-width: 500px) {
+    textarea {
+    width: 20rem; } }
 
-@media (max-width: 435px) {
-    textarea{
-        width: 15rem;
-    }
-    
-} 
+    @media (max-width: 350px) {
+        textarea {
+        width: 10rem; } } 
 
 
 
@@ -230,17 +238,23 @@ textarea {
     }
 }
 
-@media (min-width: 425px) {
-    .campo label{
-        font-size: 2rem;
+@media (min-width: 395px) {
+    .campo label {
+    font-size: 1.8rem;
+    text-align: start;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0; } }
+
+    @media (max-width: 394px) {
+        .campo label {
+        font-size: 1.2rem;
         text-align: start;
-        padding: 2rem;
+        padding: 1.5rem;
         position: absolute;
         margin-top: 0;
-        margin-left: 0; 
-    }
-    
-}
+        margin-left: 0; } }
+        
 
 
 legend {
@@ -268,7 +282,6 @@ a {
 .input {
     width: 90%;
     margin-top: 5rem;
-    /* margin: 0 auto; */
     text-align: start;
     
     &:focus {
@@ -316,8 +329,3 @@ a {
             animation-delay: 0s;
             }     
 
-        /* mark {
-            color: blue;
-            background-image: linear-gradient(white, rgb(132, 173, 219), rgba(35, 120, 231, 0.842));
-      
-        }    */
