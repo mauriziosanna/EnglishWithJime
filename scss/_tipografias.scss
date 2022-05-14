@@ -1,17 +1,24 @@
 
-//Paleta de colores:
+//Paleta de colores
 
 $color-titulos: rgb(9, 9, 179);
-$color-fondo: rgb(176, 226, 246);
-
+$color-fondo: white;
 
 
 .titulo-principal {
     color: $color-titulos;
-    font-family: 'Oooh Baby', cursive;
+    font-family: 'Courier New';
+    font-weight: bold;
     font-size: 6rem;
     margin-bottom: 1.5rem;
     margin-top: 2rem;
+    
+}
+
+.titulos-secundarios {
+    @extend .titulo-principal;
+    font-size: 5rem;
+    text-align: center;
     
 }
 
@@ -26,23 +33,12 @@ $color-fondo: rgb(176, 226, 246);
 @media (max-width: 767px) {
     .titulo-principal{
         font-size: 2.2rem;
-
+        
     }
     
 }
 
 
-
-
-.titulos-secundarios {
-    color: $color-titulos;
-    font-family: 'Oooh Baby', cursive;
-    font-size: 5rem;
-    text-align: center;
-    margin-bottom: 1.5rem;
-    margin-top: 2rem;
-    
-}
 
 @media (max-width: 769px) {
     .titulos-secundarios{
@@ -126,10 +122,44 @@ $color-fondo: rgb(176, 226, 246);
     
     .textosPaginas {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-align: justify;
+        text-align: center;
         font-size: 2rem;
         margin: 0.5rem 6rem 0 17rem;
         
+    
+    }
+    
+    @media (min-width: 1023px) {
+        .textosPaginas{
+            margin: 0.5rem 5rem 0 5.3rem;
+            
+            
+        }
         
     }
     
+    
+    @media (max-width: 769px) {
+        .textosPaginas{
+            margin: 0.7rem 7.5rem 0 7.5rem;
+            text-align: center;
+            }
+            
+        }
+        
+        
+        @media (max-width: 767px) {
+            .textosPaginas{
+                font-size: 1rem;
+                margin: 0.7rem 8rem 0 8rem;
+                text-align: center;
+                
+            }
+            
+        }
+
+        
+    .textosPaginas a {
+        color: rgb(9, 9, 179);
+    }
+

@@ -1,26 +1,22 @@
-@charset "UTF-8";
-.titulo-principal {
+.titulo-principal, .titulos-secundarios {
   color: #0909b3;
-  font-family: 'Oooh Baby', cursive;
+  font-family: 'Courier New';
+  font-weight: bold;
   font-size: 6rem;
   margin-bottom: 1.5rem;
   margin-top: 2rem; }
 
+.titulos-secundarios {
+  font-size: 5rem;
+  text-align: center; }
+
 @media (max-width: 769px) {
-  .titulo-principal {
+  .titulo-principal, .titulos-secundarios {
     font-size: 5rem; } }
 
 @media (max-width: 767px) {
-  .titulo-principal {
+  .titulo-principal, .titulos-secundarios {
     font-size: 2.2rem; } }
-
-.titulos-secundarios {
-  color: #0909b3;
-  font-family: 'Oooh Baby', cursive;
-  font-size: 5rem;
-  text-align: center;
-  margin-bottom: 1.5rem;
-  margin-top: 2rem; }
 
 @media (max-width: 769px) {
   .titulos-secundarios {
@@ -65,9 +61,27 @@
 
 .textosPaginas {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: justify;
+  text-align: center;
   font-size: 2rem;
   margin: 0.5rem 6rem 0 17rem; }
+
+@media (min-width: 1023px) {
+  .textosPaginas {
+    margin: 0.5rem 5rem 0 5.3rem; } }
+
+@media (max-width: 769px) {
+  .textosPaginas {
+    margin: 0.7rem 7.5rem 0 7.5rem;
+    text-align: center; } }
+
+@media (max-width: 767px) {
+  .textosPaginas {
+    font-size: 1rem;
+    margin: 0.7rem 8rem 0 8rem;
+    text-align: center; } }
+
+.textosPaginas a {
+  color: #0909b3; }
 
 .menu-naveg {
   list-style: none;
@@ -89,100 +103,20 @@
     font-size: 1rem;
     flex-direction: column; } }
 
-/*ESTA PARTE YA ESTÁ SIN USO DEBIDO A CAMBIOS APLICADOS
+li {
+  list-style: none; }
 
-.barraNav {
-    padding: 0.3rem 7rem;
-    display: inline-block;
-    
-} 
-
-
-@media (min-width: 1160px) {
-    .barraNav{
-        padding: 2px;
-        margin: 0 4rem 0 4rem; 
-        display: flex;
-        justify-content: start;
-        
-        
-    }
-    
-}
-
-@media (max-width: 769px) {
-    .barraNav{
-        padding: 2px;
-        margin: 0 4rem 0 4rem;
-        
-        
-        
-    }
-    
-}
-
-@media (max-width: 768px) {
-    .barraNav{
-        padding: 0 1rem 0 1rem;
-        margin: 0;
-        
-        
-        
-    }
-    
-}
-*/
 html {
   font-size: 62.5%; }
 
 #colorFondo {
-  background-color: #b0e2f6; }
+  background-color: white; }
 
 .piePagina {
   font-size: 1.2rem;
   bottom: 0.5rem;
   position: sticky; }
 
-/* .barraNav {
-    padding: 0.3rem 7rem;
-    display: inline-block;
-    
-} */
-/*
-@media (min-width: 1160px) {
-    .barraNav{
-        padding: 2px;
-        margin: 0 4rem 0 4rem; 
-        display: flex;
-        justify-content: start;
-        
-        
-    }
-    
-}
-
-@media (max-width: 769px) {
-    .barraNav{
-        padding: 2px;
-        margin: 0 4rem 0 4rem;
-        
-        
-        
-    }
-    
-}
-
-@media (max-width: 768px) {
-    .barraNav{
-        padding: 0 1rem 0 1rem;
-        margin: 0;
-        
-        
-        
-    }
-    
-}
-*/
 .flexContenido {
   display: flex;
   flex-direction: column;
@@ -198,7 +132,6 @@ html {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  border: solid steelblue;
   margin: 0.5rem 5% 0 5%; }
 
 @media (max-width: 769px) {
@@ -208,14 +141,18 @@ html {
 
 @media (max-width: 767px) {
   .grid {
-    margin: 0.5rem 7.2rem 0 7.2rem;
+    margin: 0.5rem 8rem 0 5rem;
+    font-size: 5px; } }
+
+@media (max-width: 426px) {
+  .grid {
+    margin: 0.5rem 8.1rem 0 5rem;
     font-size: 5px; } }
 
 .imagen-principal {
-  width: 90%;
   height: 70%;
-  border-radius: 1rem;
-  /*margin: 0.5rem 4rem 2rem 6rem;*/ }
+  width: 90%;
+  border-radius: 1rem; }
 
 @media (max-width: 769px) {
   .imagen-principal {
@@ -228,10 +165,9 @@ html {
     height: 40%; } }
 
 .imagenCurso {
-  width: 70%;
+  width: 100%;
   height: 50%;
-  border-radius: 1rem;
-  /*margin: 0rem 0rem 2rem 19rem;*/ }
+  border-radius: 1rem; }
 
 @media (max-width: 769px) {
   .imagenCurso {
@@ -244,10 +180,9 @@ html {
     height: 40%; } }
 
 .imagenExamenes {
-  width: 70%;
-  height: 47rem;
-  border-radius: 1rem;
-  /* margin: 0rem 0rem 2rem 17rem; */ }
+  width: 100%;
+  height: 60rem;
+  border-radius: 1rem; }
 
 @media (max-width: 769px) {
   .imagenExamenes {
@@ -260,25 +195,35 @@ html {
     height: 40%; } }
 
 .imagenTraducciones {
-  width: 70%;
-  height: 70rem;
+  width: 80%;
+  height: 63rem;
   border-radius: 1rem;
-  /* margin: 0rem 0rem 2rem 17rem; */ }
+  position: relative;
+  z-index: -1;
+  top: 30px; }
 
 @media (max-width: 769px) {
   .imagenTraducciones {
     width: 80%;
-    height: 60%; } }
+    height: 60%;
+    position: relative;
+    top: 20px; } }
 
 @media (max-width: 767px) {
   .imagenTraducciones {
     width: 60%;
-    height: 40%; } }
+    height: 40%;
+    position: relative;
+    top: 18px; } }
+
+@media (max-width: 425px) {
+  .imagenTraducciones {
+    position: relative;
+    top: 15px; } }
 
 .logoWhatsapp {
   width: 7rem;
-  height: 4rem;
-  /* margin-left: 100rem; */ }
+  height: 4rem; }
 
 .logoInstagram {
   width: 4.2rem;
@@ -323,9 +268,13 @@ textarea {
   textarea {
     width: 30rem; } }
 
-@media (max-width: 435px) {
+@media (max-width: 500px) {
   textarea {
-    width: 15rem; } }
+    width: 20rem; } }
+
+@media (max-width: 350px) {
+  textarea {
+    width: 10rem; } }
 
 .iframe {
   display: flex;
@@ -345,11 +294,19 @@ textarea {
   margin-top: 0;
   margin-left: 0; }
 
-@media (min-width: 425px) {
+@media (min-width: 395px) {
   .campo label {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: start;
-    padding: 2rem;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0; } }
+
+@media (max-width: 394px) {
+  .campo label {
+    font-size: 1.2rem;
+    text-align: start;
+    padding: 1.5rem;
     position: absolute;
     margin-top: 0;
     margin-left: 0; } }
@@ -357,14 +314,13 @@ textarea {
 legend {
   font-size: 3rem; }
 
-/*ANIMACIONES*/
-a {
+.menu-naveg a {
   transition: 1seg;
   text-decoration: none;
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold; }
-  a:hover {
+  .menu-naveg a:hover {
     font-size: 3rem;
     color: aqua;
     text-decoration: none; }
@@ -372,7 +328,6 @@ a {
 .input {
   width: 90%;
   margin-top: 5rem;
-  /* margin: 0 auto; */
   text-align: start; }
   .input:focus {
     padding: 5px;
@@ -411,11 +366,3 @@ img.logoTwitter {
   animation-timing-function: ease-in;
   animation-duration: 2s;
   animation-delay: 0s; }
-
-/* mark {
-            color: blue;
-            background-image: linear-gradient(white, rgb(132, 173, 219), rgba(35, 120, 231, 0.842));
-      
-        }    */
-
-
