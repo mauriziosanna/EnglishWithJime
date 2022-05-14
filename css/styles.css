@@ -103,9 +103,12 @@
     font-size: 1rem;
     flex-direction: column; } }
 
+<<<<<<< HEAD
 li {
   list-style: none; }
 
+=======
+>>>>>>> refs/remotes/origin/master
 html {
   font-size: 62.5%; }
 
@@ -180,8 +183,13 @@ html {
     height: 40%; } }
 
 .imagenExamenes {
+<<<<<<< HEAD
   width: 100%;
   height: 60rem;
+=======
+  width: 70%;
+  height: 47rem;
+>>>>>>> refs/remotes/origin/master
   border-radius: 1rem; }
 
 @media (max-width: 769px) {
@@ -195,12 +203,18 @@ html {
     height: 40%; } }
 
 .imagenTraducciones {
+<<<<<<< HEAD
   width: 80%;
   height: 63rem;
   border-radius: 1rem;
   position: relative;
   z-index: -1;
   top: 30px; }
+=======
+  width: 70%;
+  height: 70rem;
+  border-radius: 1rem; }
+>>>>>>> refs/remotes/origin/master
 
 @media (max-width: 769px) {
   .imagenTraducciones {

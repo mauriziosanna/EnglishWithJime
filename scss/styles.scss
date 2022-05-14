@@ -9,7 +9,10 @@ $radius-imagenes: 1rem;
 
 //Mixin:
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/master
 @mixin sizes($height,$width) {
     height: $height;
     width: $width;
@@ -103,6 +106,10 @@ $radius-imagenes: 1rem;
     top: 30px;
     
     
+<<<<<<< HEAD
+=======
+    
+>>>>>>> refs/remotes/origin/master
 }
 
 @media (max-width: 769px) {
