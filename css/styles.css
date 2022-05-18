@@ -16,7 +16,11 @@
 
 @media (max-width: 767px) {
   .titulo-principal, .titulos-secundarios {
-    font-size: 2.2rem; } }
+    font-size: 3.5rem; } }
+
+@media (max-width: 450px) {
+  .titulo-principal, .titulos-secundarios {
+    font-size: 2.5rem; } }
 
 @media (max-width: 769px) {
   .titulos-secundarios {
@@ -24,7 +28,11 @@
 
 @media (max-width: 767px) {
   .titulos-secundarios {
-    font-size: 2.2rem; } }
+    font-size: 4rem; } }
+
+@media (max-width: 425px) {
+  .titulos-secundarios {
+    font-size: 3rem; } }
 
 .tituloContacto {
   font-size: 5rem; }
@@ -134,20 +142,15 @@ html {
   grid-template-rows: repeat(2, 1fr);
   margin: 0.5rem 5% 0 5%; }
 
-@media (max-width: 769px) {
+@media (max-width: 425px) {
   .grid {
-    margin: 0.5rem 11rem 0 11rem;
+    margin: 0.5rem 3.1rem 0 0;
     font-size: 1rem; } }
 
-@media (max-width: 767px) {
-  .grid {
-    margin: 0.5rem 8rem 0 5rem;
-    font-size: 5px; } }
-
-@media (max-width: 426px) {
-  .grid {
-    margin: 0.5rem 8.1rem 0 5rem;
-    font-size: 5px; } }
+@media (max-width: 425px) {
+  .gridCel {
+    margin: 0.5rem 3.1rem 0 0;
+    font-size: 8px; } }
 
 .imagen-principal {
   height: 70%;
@@ -169,32 +172,14 @@ html {
   height: 50%;
   border-radius: 1rem; }
 
-@media (max-width: 769px) {
+@media (max-width: 425px) {
   .imagenCurso {
-    width: 80%;
-    height: 60%; } }
-
-@media (max-width: 767px) {
-  .imagenCurso {
-    width: 60%;
-    height: 40%; } }
+    width: 90%; } }
 
 .imagenExamenes {
   width: 100%;
-  height: 60rem;
-  width: 70%;
-  height: 47rem;
+  height: 100%;
   border-radius: 1rem; }
-
-@media (max-width: 769px) {
-  .imagenExamenes {
-    width: 80%;
-    height: 60%; } }
-
-@media (max-width: 767px) {
-  .imagenExamenes {
-    width: 60%;
-    height: 40%; } }
 
 .imagenTraducciones {
   width: 80%;
@@ -202,28 +187,22 @@ html {
   border-radius: 1rem;
   position: relative;
   z-index: -1;
-  top: 30px;
-  width: 70%;
-  height: 70rem;
-  border-radius: 1rem;}
+  top: 30px; }
 
 @media (max-width: 769px) {
   .imagenTraducciones {
-    width: 80%;
-    height: 60%;
+    width: 90%;
+    height: 70%;
     position: relative;
     top: 20px; } }
 
 @media (max-width: 767px) {
   .imagenTraducciones {
-    width: 60%;
-    height: 40%;
-    position: relative;
     top: 18px; } }
 
 @media (max-width: 425px) {
   .imagenTraducciones {
-    position: relative;
+    width: 80%;
     top: 15px; } }
 
 .logoWhatsapp {

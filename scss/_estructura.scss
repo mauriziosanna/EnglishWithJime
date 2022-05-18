@@ -35,36 +35,25 @@ html {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    // border: solid steelblue;
     margin: 0.5rem 5% 0 5%;
         
     
 }
 
-@media (max-width: 769px) {
+
+@media (max-width: 425px) {
     .grid{
-        margin: 0.5rem 11rem 0 11rem;
+        margin: 0.5rem 3.1rem 0 0;
         font-size: 1rem;
         
     }
     
 }
 
-
-
-@media (max-width: 767px) {
-    .grid{
-        margin: 0.5rem 8rem 0 5rem;
-        font-size: 5px;
-    }
-    
-}
-
-
-@media (max-width: 426px) {
-    .grid{
-        margin: 0.5rem 8.1rem 0 5rem;
-        font-size: 5px;
+@media (max-width: 425px) {
+    .gridCel{
+        margin: 0.5rem 3.1rem 0 0;
+        font-size: 8px;
         
     }
     

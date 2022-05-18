@@ -48,48 +48,22 @@ $radius-imagenes: 1rem;
         
     }
     
-    @media (max-width: 769px) {
-        .imagenCurso{
-            width: 80%;
-            height: 60%;
-            
-        }
-        
-    }
+
+@media (max-width: 425px) {
+    .imagenCurso{
+    width: 90%;
     
-    @media (max-width: 767px) {
-        .imagenCurso{
-        width: 60%;
-        height: 40%;
-        
-    }
     
+}
+
 }
 
 
 .imagenExamenes {
     width: 100%;
-    height: 60rem;
+    height: 100%;
     border-radius: $radius-imagenes;
     
-    
-}
-
-@media (max-width: 769px) {
-    .imagenExamenes{
-        width: 80%;
-        height: 60%;
-        
-    }
-    
-}
-
-@media (max-width: 767px) {
-    .imagenExamenes{
-        width: 60%;
-        height: 40%;
-        
-    }
     
 }
 
@@ -108,8 +82,8 @@ $radius-imagenes: 1rem;
 
 @media (max-width: 769px) {
     .imagenTraducciones{
-        width: 80%;
-        height: 60%;
+        width: 90%;
+        height: 70%;
         position: relative;
         top: 20px;
     }
@@ -118,20 +92,16 @@ $radius-imagenes: 1rem;
 
 @media (max-width: 767px) {
     .imagenTraducciones{
-        width: 60%;
-        height: 40%;
-        position: relative;
-        top: 18px;
-        
+    top: 18px;
+    
     }
     
 }
 
 @media (max-width: 425px) {
     .imagenTraducciones{
-        position: relative;
+        width: 80%;
         top: 15px;
-        
     }
     
 }
